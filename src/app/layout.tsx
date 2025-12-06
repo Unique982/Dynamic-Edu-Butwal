@@ -24,7 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="shortcut icon" href="https://dynamicedubutwal.com/assets/logo-CYKKx8Gz.jpg" type="image/x-icon">
+      <head>
+           <link rel="shortcut icon" href="https://dynamicedubutwal.com/assets/logo-CYKKx8Gz.jpg" type="image/x-icon">
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
