@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Dynamic Education Center",
   description: "Dynamic Educational Center, Butwal — expert in language and computer training. Learn Korean, German, Japanese, and English. Improve your digital skills with personalized computer classes and professional tutors.",
+icons: {
+    icon: "https://dynamicedubutwal.com/assets/logo-CYKKx8Gz.jpg",
+  },
 };
 
 export default function RootLayout({
@@ -24,9 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-           <link rel="shortcut icon" href="https://dynamicedubutwal.com/assets/logo-CYKKx8Gz.jpg" type="image/x-icon">
-      </head>
+     
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
